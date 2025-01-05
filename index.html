@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parveender Jeet Kaur</title>
+
+    <!-- bootstrap css cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav
+      id="navbar-top"
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
+    >
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d"
+          >Portfolio</a
+        >
+        <button
+          class="nav-menu d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-menu-button-fill"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Expertise">Expertise</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skill">Skill</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Project</a>
+            </li>
+          </ul>
+        </div>
+        <a href="#contact" class="c-btn ms-4 py-2 px-4 rounded d-none d-md-block" style="text-decoration: none;">Contact</a>
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- home section starts  -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="row justify-content-evenly align-items-center">
+        <!-- Foto Profil -->
+        <div class="col-10 col-md-4 text-center">
+          <img src="img/papin cantik.png" alt="Foto Profil" class="profile-picture img-fluid">
+        </div>
+    
+        <!-- Teks Deskripsi -->
+        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-left">
+          <h2 style="color: #44434b">
+            Hello! I Am <br /><span class="c-black">Parveender Jeet Kaur</span>
+          </h2>
+          <p class="text-muted">
+            Graphic design student with a major in interior design at Brawijaya University Malang, Mastering various design software such as AutoCAD, SketchUp, 3ds, enscape and Adobe Creative Suite. Experienced in designing spatial layouts, 3D rendering, and understanding design materials. Has leadership experience and is skilled in managing organizational programs and working in teams. Has good communication skills and is eager to learn and contribute to design projects. Committed to producing functional and aesthetic designs that suit user needs.
+          </p>
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded" onclick="window.location.href='mailto:parveenderj@gmail.com'">
+            Hire Me
+          </button>
+          <a href="" class="link ms-4 d-none">See My Work</a>
+        </div>
+      </div>
+    </section>
+    
+    <!-- home section ends here -->
+
+    <!-- expertise section starts -->
+    <section class="expertise mt-5" id="Expertise">
+      <div class="heading text-center">
+        <small>My Expertise</small>
+        <h3>
+          Provide Wide Range of <br />
+          Digital Services
+        </h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+            </div>
+            <div class="content mt-3">
+              <h4>Conceptual Design
+                </h4>
+              <p class="text-muted">
+                I excel in conceptual design, where I develop creative and innovative ideas that reflect the client's vision and the purpose of the space.
+                By thoroughly understanding the project’s context and requirements. 
+                </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+            </div>
+            <div class="content mt-3">
+              <h4>Space Planning
+              </h4>
+              <p class="text-muted">
+                skill in space planning allows me to create functional and efficient layouts that prioritize both comfort and practicality.
+                I focus on the thoughtful arrangement of spaces to ensure smooth circulation, appropriate zoning, and optimal space utilization. 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+            </div>
+            <div class="content mt-3">
+              <h4>Landscaping
+              </h4>
+              <p class="text-muted">
+                As an interior designer with a strong proficiency in landscaping, I bring a unique approach to harmonizing indoor and outdoor spaces. My expertise lies in creating well-balanced environments that seamlessly blend architectural design with natural elements, enhancing both aesthetics and functionality. This specialization allows me to craft personalized spaces that promote well-being and sustainability.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- expertise section ends here -->
+
+   
+
+<section class="skill mt-5 py-5" id="skill">
+    <div class="row justify-content-evenly">
+      <div class="col-10 col-md-5 skill-with-progress" data-aos="slide-right">
+        <div class="row justify-content-evenly mt-4">
+          <div class="col-10 col-md-6">
+            <div class="progress-card ms-3 ms-md-0">
+              <img src="img/3dsmax.png" class="skill-icon" alt="3dsmax Logo" width="20" height="20">
+              <span class="text">3DS-MAX</span>
+              <div class="circular-progress 3DS-MAX">
+                <a href="#collapse3DS-MAX" class="read-more-btn link" data-bs-toggle="collapse">Read More</a>
+              <div class="collapse" id="collapse3DS-MAX">
+                <p class="mt-2">accustomed to creating 3d models such as furniture and various other interior elements with a high level of detail</p>
+              </div>
+                <!-- Elemen progress bar -->
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-md-6 mt-4 mt-md-0">
+            <div class="progress-card ms-3 ms-md-0">
+              <img src="img/sketchup.png" class="skill-icon" alt="SketchUp Logo" width="20" height="20">
+              <span class="text">SketchUp</span>
+              <div class="circular-progress SketchUp">
+                <a href="#collapseSketchup" class="read-more-btn link" data-bs-toggle="collapse">Read More</a>
+              <div class="collapse" id="collapseSketchup">
+                <p class="mt-2">experienced in creating 3d models for interior design visualization, from initial concept creation to detail refinement. Skilled in utilizing plugins to increase productivity and design accuracy.</p>
+              </div>
+                <!-- Elemen progress bar -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-evenly mt-4">
+          <div class="col-10 col-md-6">
+            <div class="progress-card ms-3 ms-md-0">
+              <img src="img/enscape.png" class="skill-icon" alt="Enscape Logo" width="20" height="20">
+              <span class="text">Enscape</span>
+              <div class="circular-progress Enscape">
+                <a href="#collapseEnscape" class="read-more-btn link" data-bs-toggle="collapse">Read More</a>
+              <div class="collapse" id="collapseEnscape">
+                <p class="mt-2">Mastering real-time rendering to quickly visualize photorealistic designs. Experienced in presenting interior design results through dynamic presentations and animated walkthroughs for clients.</p>
+              </div>
+                <!-- Elemen progress bar -->
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-md-6 mt-4 mt-md-0">
+            <div class="progress-card ms-3 ms-md-0">
+              <img src="img/d5.jpeg" class="skill-icon" alt="D5 Render Logo" width="20" height="20">
+              <span class="text">D5 Render</span>
+              <div class="circular-progress D5 Render">
+              <a href="#collapseD5Render" class="read-more-btn link" data-bs-toggle="collapse">Read More</a>
+              <div class="collapse" id="collapseD5Render">
+                <p class="mt-2">Accustomed to high quality rendering and using realistic lighting. Using d5 render to produce interior space visualizations with deep levels of detail.</p>
+              </div>
+                <!-- Elemen progress bar -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-evenly mt-4">
+          <div class="col-10 col-md-12">
+            <div class="progress-card ms-3 ms-md-0">
+              <img src="img/autocad.png" class="skill-icon" alt="AutoCAD Logo" width="20" height="20">
+              <span class="text">AutoCAD</span>
+              <div class="circular-progress AutoCAD">
+                <a href="#collapseAutoCAD" class="read-more-btn link" data-bs-toggle="collapse">Read More</a>
+              <div class="collapse" id="collapseAutoCAD">
+                <p class="mt-2">Proficient in creating 2D and 3D technical drawings for interior design needs, such as floor plans, sections, and construction details.</p>
+              </div>
+                <!-- Elemen progress bar -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-10 col-md-5 skill-detail" data-aos="slide-left">
+        <div class="heading mt-5 mt-md-3">
+          <small>My Skills</small>
+          <h3>Beautiful & Unique Design Experiences</h3>
+          <p class="text-muted">
+            Graphic design student with a major in interior design at Brawijaya University Malang, Mastering various design software such as AutoCAD, SketchUp, 3ds, enscape and Adobe Creative Suite. Experienced in designing spatial layouts, 3D rendering, and understanding design materials. Has leadership experience and is skilled in managing organizational programs and working in teams. Has good communication skills and is eager to learn and contribute to design projects. Committed to producing functional and aesthetic designs that suit user needs.
+          </p>
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+            <!-- here download attribute is used for adding download functionality to button  -->
+            <a
+              href="CV ATS MAGANG kurang porto (2).pdf"
+              download="SampleCV"
+              style="text-decoration: none;color: #f3eaea;"
+              >Download CV</a
+            >
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+<!-- skill section end here -->
+    <!-- portfolio section starts here -->
+    <!-- Portfolio Section -->
+<section class="portfolio" id="portfolio">
+  <div class="heading text-center pt-5">
+    <small>Creative Work</small>
+    <h3>Check My Portfolio</h3>
+  </div>
+
+  <div class="portfolio-body">
+    <div class="row justify-content-evenly px-4">
+      <!-- Portfolio Item 1 -->
+      <div class="post col-md-4 col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <img src="img/parveen 15 .png" class="card-img-top" alt="SLB-UM " />
+          <div class="card-body text-center">
+            <h5 class="card-title">SLB-UM </h5>
+            <a href="#portfolioModal1" class="link" data-bs-toggle="modal">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Portfolio Item 2 -->
+      <div class="post col-md-4 col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <img src="img/parveen 8.jpg"card-img-top" alt="Post Office" />
+          <div class="card-body text-center">
+            <h5 class="card-title">Post Office</h5>
+            <a href="#portfolioModal2" class="link" data-bs-toggle="modal">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Portfolio Item 3 -->
+      <div class="post col-md-4 col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <img src="img/parveen 43.png" class="card-img-top" alt="Home Design" />
+          <div class="card-body text-center">
+            <h5 class="card-title">Home Design</h5>
+            <a href="#portfolioModal3" class="link" data-bs-toggle="modal">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Modals for Portfolio Details -->
+<!-- Modal 1 -->
+<div class="modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="portfolioModal1Label">SLB-UM</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div id="carouselExampleControlsModal1" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/parveen 16.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/parveen 23.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/parveen 24.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/slb 1.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsModal1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsModal1" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <p><strong>Background:</strong> Redesain Sekolah Luar Biasa (SLB) Universitas Negeri Malang bertujuan untuk menciptakan lingkungan belajar yang inklusif, fungsional, dan estetis bagi siswa dengan kebutuhan khusus.</p>
+        <p><strong>Platform:</strong> SketchUp, Enscape, D5Render,Autocad, Adobe Ilustrator.</p>
+        <p><strong>Work Done:</strong>Analisis Kebutuhan Pengguna, Konsep Desain Inklusif,Perancangan Tata Ruang, Visualisasi dan Representasi Desain, Dokumentasi Proyek, Pemilihan Material.</p>
+        <p><strong>Overview:</strong> Menggunakan pendekatan desain yang mengutamakan  aksebilitas, kenyamanan, dan elemen multisensori. Tata ruang dirancsng adaptif menggunakan material ramah lingkungan, pencahyaan alami yang optimal. Redesain ini  menjadi representasi komitmen terhadap pendidikan inklusif dan ruang yang memberdayakan penggunanya.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2Label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="portfolioModal2Label">Post Office</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div id="carouselExampleControlsModal2" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/parveen 11 .jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/parveen 3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/parveen 6.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/parveen 13 .jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsModal2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsModal2" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <p><strong>Background:</strong>Proyek ini bertujuan menghadirkan ruang pelayanan modern yang fungsional, nyaman, dan sesuai dengan kebutuhan pengguna, sekaligus mencerminkan identitas kampus yang dinamis dan profesional. </p>
+        <p><strong>Platform:</strong>SketchUp, Enscape, Autocad. </p>
+        <p><strong>Work Done:</strong> Analisis Kebutuhan, Pengembangan Konsep Desain, Perencanaan Tata Ruang, Visualisasi Desain</p>
+        <p><strong>Overview:</strong> Proyek redesain ini bertujuan untuk menciptakan kantor pos modern yang efisien, nyaman, dan selaras dengan identitasnya. Lingkup pekerjaan mencakup optimalisasi tata ruang, peningkatan aksesibilitas, dan penerapan elemen desain yang memperkuat pengalaman pengguna. Pendekatan desain memprioritaskan fungsionalitas,  dan keberlanjutan untuk mendukung operasional jangka panjang. </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 3 -->
+<div class="modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3Label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="portfolioModal3Label">Home Design</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div id="carouselExampleControlsModal3" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/parveen 38.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/parveen 31.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/parveen 39.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/parveen 34.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsModal3" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsModal3" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <p><strong>Background:</strong>Proyek desain rumah ini dilatarbelakangi oleh kebutuhan akan hunian modern yang tidak hanya fungsional, tetapi juga memberikan kenyamanan dan ketenangan bagi penghuninya. Dengan memadukan elemen alami dan konsep minimalis.</p>
+        <p><strong>Platform:</strong>SketchUp, Enscape, Autocad, D5render</p>
+        <p><strong>Work Done:</strong> Pengembangan Konsep Desain, Perencanaan Tata Ruang, Visualisasi Desain.</p>
+        <p><strong>Overview:</strong>Desain rumah ini berfokus pada konsep modern minimalis yang menggabungkan elemen fungsional, estetika, dan kenyamanan. Setiap ruang dirancang dengan detail yang mempertimbangkan pengalaman pengguna, menciptakan hunian yang mendukung gaya hidup modern dengan suasana tenang dan harmonis. Desain ini juga mengutamakan keberlanjutan melalui pemanfaatan elemen alami, pencahayaan yang optimal, dan material ramah lingkungan. </p>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- portfolio section ends here -->
+<!-- blog section starts -->
+    <section class="blog mt-5 pb-5" id="project">
+      <div class="heading text-center pt-5">
+        <small>Latest Project</small>
+        <h3>A display of my academics progress</h3>
+      </div>
+      <div class="row justify-content-evenly px-4 mt-4" data-aos="fade-up">
+        <div class="blogpost col-md-4 col-10 mt-2 mt-md-0 game all">
+          <div class="card">
+            <video class="card-img-top rounded-4" controls>
+              <source src="video/1217.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video> 
+            <div class="card-body px-4">
+              <small>By Parveender Jeet Kaur</small
+              ><span class="ms-3">Dec,2024</span>
+              <h4 class="card-title">
+                <a href="">Redesain SLB-UM</a>
+              </h4>
+              <p class="text-muted">
+                Redesain Sekolah Luar Biasa (SLB) Universitas Negeri Malang bertujuan untuk menciptakan lingkungan belajar yang inklusif, fungsional, dan estetis bagi siswa dengan kebutuhan khusus. 
+              </p>
+              <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal1">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="blogpost col-md-4 col-10 mt-5 mt-md-0 website all">
+          <div class="card">
+           <video class="card-img-top rounded-4" controls>
+              <source src="video/1229.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video> 
+            <div class="card-body px-4">
+              <small>By Parveender Jeet Kaur</small
+              ><span class="ms-3">Nov,2024</span>
+              <h4 class="card-title">
+                <a href="">Home Design</a>
+              </h4>
+              <p class="text-muted">
+                Proyek desain rumah ini dilatarbelakangi oleh kebutuhan akan hunian modern yang tidak hanya fungsional, tetapi juga memberikan kenyamanan dan ketenangan bagi penghuninya. Dengan memadukan elemen alami dan konsep minimalis.
+              </p>
+              <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal2">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="blogpost col-md-4 col-10 mt-5 mt-md-0 webapp all">
+          <div class="card">
+            <video class="card-img-top rounded-4" controls>
+              <source src="video/KANTOR POS_ANIMASI FINAL.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video> 
+            <div class="card-body px-4">
+              <small>By Parveender  Jeet Kaur</small
+              ><span class="ms-3">March,2023</span>
+              <h4 class="card-title">
+                <a href="">Post Office</a>
+              </h4>
+              <p class="text-muted">
+                Proyek ini bertujuan menghadirkan ruang pelayanan modern yang fungsional, nyaman, dan sesuai dengan kebutuhan pengguna, sekaligus mencerminkan identitas kampus yang dinamis dan profesional.
+              </p>
+              <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal3">Read More</a>
+            </div>
+          </div>
+        </div>
+    <!-- here we will make modals if Read more link is clicked the modal will popup -->
+        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              
+                <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+              
+              <div class="modal-body px-4">
+                <div class="img">
+                  <img src="img/parveen 26.png" class="img-fluid" alt="">
+                </div>
+                <div class="content mt-3">
+                  <small>By Parveender Jeet Kaur</small
+                    ><span class="text-muted ms-2">Dec,2024</span>
+                  <h4 class="card-title mt-3">RedesaiN SLB-UM</h4>
+                  <div class="social-links mt-4">
+                  </div>
+                  <p class="text-muted mt-3"> Desain ini dirancang dengan pendekatan yang inklusif, mengutamakan kenyamanan dan kebutuhan khusus bagi semua pengguna.Proyek ini memadukan elemen modern dengan konsep ramah lingkungan, serta memperhatikan aspek ergonomi dan aksesibilitas untuk memastikan semua fasilitas dapat diakses dengan mudah oleh seluruh penghuni dan pengunjung.Fitur utama desain:Aksesibilitas Optimal: Setiap ruang dan fasilitas dirancang dengan mempertimbangkan pengguna berkebutuhan khusus.Pencahayaan Alami dan Sirkulasi Udara: Desain bangunan dibuat untuk memaksimalkan pencahayaan alami serta sirkulasi udara yang baik, menciptakan suasana yang nyaman dan sehat.Ruang Multifungsi: Menyediakan ruang-ruang serbaguna yang dapat digunakan untuk berbagai aktivitas belajar, terapi, dan kegiatan sosial.Area Hijau: Dilengkapi dengan taman bermain dan area hijau yang dirancang untuk memberikan suasana yang asri dan menenangkan.Proses perancangan hingga hasil render ini dikerjakan menggunakan SketcUp dan D5render dengan hasil visual yang realistis, memberikan gambaran jelas mengenai proyek SLB UM.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              
+                <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+              
+              <div class="modal-body px-4">
+                <div class="img">
+                  <img src="img/parveen 43.png" class="img-fluid" alt="">
+                </div>
+                <div class="content mt-3">
+                  <small>By Parveender Jeet Kaur </small
+                    ><span class="text-muted ms-2 ms-md-0">,2022</span>
+                  <h4 class="card-title mt-3">Home Design</h4>
+                  <div class="social-links mt-4">
+                  </div>
+                  <p class="text-muted mt-3"> Dalam video ini, Anda akan melihat hasil render animasi sebuah rumah modern minimalis dengan konsep ruang terbuka dan pencahayaan alami yang optimal dengan sentuhan konsep biophilic design, yang menghadirkan harmoni antara ruang hunian dan elemen alam. 
+                    Konsep utama dari desain ini adalah menghadirkan banyak tanaman dalam rumah, yang berfungsi tidak hanya sebagai dekorasi estetis, tetapi juga untuk menciptakan suasana yang lebih sehat dan menyegarkan. Elemen alami seperti tanaman, pencahayaan alami yang maksimal, dan material ramah lingkungan dirancang untuk memberikan kenyamanan optimal bagi penghuni.
+                    Desain ini dirancang untuk menciptakan suasana yang nyaman, sehat, dan fungsional bagi penghuninya.  
+                    
+                    Fokus utama desain adalah:  
+                    Pencahayaan alami: Menggunakan bukaan besar untuk memaksimalkan cahaya matahari yang masuk ke dalam rumah.  
+                    Material alami: Perpaduan kayu, batu alam, dan elemen metalik untuk menghasilkan tampilan estetis yang harmonis.  
+                    Ergonomi ruang: Setiap elemen interior diperhatikan agar mendukung aktivitas sehari-hari dengan nyaman.  
+                    
+                    Video ini dihasilkan melalui proses permodelan 3D menggunakan SketchUp, diikuti dengan rendering realistis meenggunakan D5render untuk memberikan visualisasi terbaik dari konsep desain.  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              
+                <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+              
+              <div class="modal-body px-4">
+                <div class="img">
+                  <img src="img/parveen 40.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="content mt-3">
+                  <small>By Parveender Jeet Kaur</small
+                    ><span class="text-muted ms-2 ms-md-0">Mar 8,2022</span>
+                  <h4 class="card-title mt-3">Post Office</h4>
+                  <div class="social-links mt-4">
+                  </div>
+                  <p class="text-muted mt-3">Sebuah upaya untuk memperbarui wajah kantor pos menjadi lebih modern dan fungsional, tanpa meninggalkan identitas khasnya sebagai bagian dari warisan arsitektur.
+                    Proyek ini bertujuan untuk memberikan sentuhan modern pada desain kantor pos, tanpa menghilangkan karakteristik klasik yang melekat pada bangunan aslinya. Redesain ini memadukan elemen yang sederhana dengan konsep modern minimalis, menciptakan ruang yang lebih nyaman, fungsional, dan efisien untuk melayani masyarakat.
+                    
+                    Fitur utama dari redesain:
+                    
+                    Konsep Ruang Terbuka: Menyediakan area pelayanan yang luas dan terbuka, dengan sirkulasi yang lebih baik untuk kenyamanan pelanggan.
+                    Elemen Klasik dan Modern: Memadukan elemen desain klasik khas kantor pos lama dengan material modern seperti kaca, logam, dan kayu.
+                    
+                    Proses perancangan hingga render animasi ini dilakukan menggunakan sketchup  dan enscape, menghasilkan visualisasi realistis yang memberikan gambaran lengkap dari konsep desain ulang kantor pos ini.
+                    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blog section ends here -->
+
+    <!-- contact section starts -->
+    <section class="contact py-5" id="contact">
+      <div class="heading text-center">
+        <small>Get in Touch</small>
+        <h3>Feel Free to Contact</h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-md-5 col-10 contact-details" data-aos="slide-left">
+      <div class="row justify-content-evenly">
+        <div class="col-1">
+          <i class="bi bi-geo-alt-fill"></i>
+        </div>
+        <div class="col-11">
+          <p>Jl.Perumahan Puncak Dieng Blok JJ1 No.27 Malang</p>
+        </div>
+      </div>
+      <div class="row justify-content-evenly">
+        <div class="col-1">
+          <i class="bi bi-telephone-fill"></i>
+        </div>
+        <div class="col-11">
+          <p>+62 813-7618-2948</p>
+        </div>
+      </div>
+      <div class="row justify-content-evenly">
+        <div class="col-1">
+          <i class="bi bi-send-fill"></i>
+        </div>
+        <div class="col-11">
+          <p>parveenderj@gmail.com</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Kolom Kosong untuk Menjaga Layout -->
+    <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+      <!-- Kolom ini dibiarkan kosong untuk menjaga layout -->
+    </div>
+  </div>
+</section>
+<!-- Contact Details -->
+        
+    <!-- contact section ends here -->
+
+      <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+    <button
+      type="button"
+      class="btn btn-floating btn-lg rounded-pill"
+      id="btn-back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- footer section starts  -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4" data-aos="fade-down">2024-Portofolio</h3>
+      <div class="link-group mt-5" data-aos="fade-downS">
+        <a href="#home">Home</a>
+        <div class="vr"></div>
+        <a href="#skill">Skill</a>
+        <div class="vr"></div>
+        <a href="#Expertise">Expertise</a>
+        <div class="vr"></div>
+        <a href="#portfolio">Portfolio</a>
+        <div class="vr"></div>
+        <a href="#project">Project</a>
+        <div class="vr"></div>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="social-links mt-5" data-aos="fade-up">
+        <button onclick="window.location.href='https://www.instagram.com/parveenderj/profilecard/?igsh=NTZjdjVsdWUybGxh '" class="rounded-pill instagram">
+            <i class="bi bi-instagram"></i>
+        </button>
+        <button onclick="window.location.href='https://wa.me/6281376182948'" class="rounded-pill whatsapp">
+            <i class="bi bi-whatsapp"></i>
+        </button>
+        <button onclick="window.location.href='https://www.linkedin.com/in/parveender-jeet-kaur-54a17a250 '" class="rounded-pill linkedin">
+            <i class="bi bi-linkedin"></i>
+        </button>
+    </div>
+    <hr class="text-muted my-4" />
+      <p> Parveen | 2024 | Portfolio | All Rights Reserved.</p>
+    </footer>
+    <!-- footer section ends here -->
+
+      <!-- bootstrap javascript cdn link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // initializing AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    <!-- custom js file linking -->
+    <script src="script.js"></script>
+    
+  </body>
+</html>
